@@ -1,0 +1,29 @@
+\section{DISPONIBILIDAD DE LOS DATOS}
+\begin{table}[H]
+    \begin{tblr}{
+        row{2,8} = {RoyalBlue!50},
+        row{3,4,5} = {font=\footnotesize},
+        row{3,6} = {bg=gray!25},
+        colspec = {Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]}
+    }
+    \SetCell[c=7]{l} DATOS GEOFÍSICOS\\
+    \SetCell[c=7]{l} ACELERÓGRAFO SÓTANO\\
+    CÓDIGO & SAMPLING & FORMATO & MODO DE REGISTRO & F. DEL MNTTO & F. INICIO DATA & F. FINAL DATA\\
+    \SetCell[r=2]{c} \Codigo &
+    \SetCell[r=2]{c} 100 &
+    \SetCell[r=2]{c} miniSEED &
+    \SetCell[r=2]{c} Continuo &
+    \Diafin/\Mesfin/\Anofin & \Diaini/\Mesini/\Anoini & \Diafin/\Mesfin/\Anofin\\
+    &&&& \calcularDOY{\Anofin}{\Mesfin}{\Diafin} & \calcularDOY{\Anoini}{\Mesini}{\Diaini} & \calcularDOY{\Anofin}{\Mesfin}{\Diafin}\\
+    \SetCell[c=7]{l} OBSERVACIONES\\
+    \SetCell[c=7]{l, 17.5cm}
+    \begin{enumerate}
+    	\item Se descargó un total de 6.97 GB de data sísmica en modo continuo (12,459 archivos | 0 carpetas) correspondientes al período de \calcularDias{\Anoini}{\Mesini}{\Diaini}{\Anofin}{\Mesfin}{\Diafin} días [\Diaini/\Mesini/\Anoini~al \Diafin/\Mesfin/\Anofin].
+    	\item No existe perdida en la información con una disponibilidad de datos del 100\%
+    	\item Se hace entrega de la data copiada a través de un enlace para el ingreso mediante acceso remoto a la nube y su descarga correspondiente si el cliente lo requiere.
+    	\item {\bfseries\color{RoyalBlue} A solicitud del IGP, se deja TODO el registro de la información sísmica para que la entidad reguladora realice el procedimiento de descarga de la información y liberación de memoria.}
+    \end{enumerate}\\
+    \SetCell[c=7]{l} LINK DE DESCARGA\\
+    \SetCell[c=7]{l} {\color{RoyalBlue}\url{https://mega.nz/folder/2J5DhZba#mQ6OAjT_BxpKWx0UG67soA}}\\
+    \end{tblr}
+\end{table}

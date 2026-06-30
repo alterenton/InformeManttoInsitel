@@ -1,5 +1,5 @@
-\newcommand{\edificio}{Altaurora}
-\newcommand{\nroinforme}{24}
+\newcommand{\edificio}{Artificial}
+\newcommand{\nroinforme}{xx}
 
 \usepackage[spanish]{babel}
 
@@ -27,3 +27,43 @@
   width = \textwidth
 }
 \UseTblrLibrary{varwidth}
+
+\usepackage{lastpage}
+
+\usepackage{float}
+
+\usepackage{titlesec}
+\titleformat{\section}
+{\color{RoyalBlue}\Large\bfseries}
+{\thesection}
+{1em}
+{}
+\titlespacing{\section}
+{0pt}
+{1em}
+{0.25em}
+\titlespacing{\subsection}
+{0pt}
+{1em}
+{0.25em}
+
+\usepackage{url}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[L]{\includegraphics[scale=0.5]{img/LogoInsitel}}
+\fancyhead[R]{
+    Av. La Fontana 1159 - La Molina - Lima - Perú\\
+    E-mail: \url{info@insitel.pe} - \url{ventas@insitel.pe}\\
+    Contacto: +51 951332375
+}
+\fancyfoot[L]{
+    INSTRUMENTACIÓN SÍSMICA Y TELEMETRÍA SAC\\
+    Website: \url{www.insitel.pe}
+}
+\fancyfoot[C]{}
+\fancyfoot[R]{Página \thepage}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{gray!25}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{gray!25}\leaders\hrule height \footrulewidth\hfill}}

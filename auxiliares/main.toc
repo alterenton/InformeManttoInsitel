@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}DATOS GENERALES}{2}{}%
+\contentsline {section}{\numberline {2}FECHA DEL MANTENIMIENTO}{2}{}%
+\contentsline {section}{\numberline {3}DESCRIPCIÓN DEL INSTRUMENTO}{2}{}%
