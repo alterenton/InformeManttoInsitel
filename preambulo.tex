@@ -1,5 +1,71 @@
-\newcommand{\edificio}{Artificial}
-\newcommand{\nroinforme}{xx}
+\newcommand{\Edificio}{Artificial}
+\newcommand{\NroInforme}{69}
+
+\newcommand{\DiaMantto}{15}
+\newcommand{\MesMantto}{06}
+\newcommand{\AnioMantto}{2026}
+
+\newcommand{\NroSerie}{1234} % Depende de la cantidad de equipos
+
+\newcommand{\Estacion}{LR01N}
+
+\newcommand{\DiaIni}{27}
+\newcommand{\MesIni}{08}
+\newcommand{\AnioIni}{2024}
+\newcommand{\TamanioData}{12.20}
+\newcommand{\NroArchivos}{34509}
+\newcommand{\NroCarpetas}{0}
+% El inicio de la toma de datos varía para cada estación, así mismo, el tamaño de los datos cambiará de igual manera el número de archivos y carpetas. Por lo que se debe de preparar esos 6 valores según la cantidad de estaciones que se tenga.
+
+\newcommand{\ControladorVoltajeEntrada}{13.59}
+\newcommand{\ControladorVoltajeSalida}{13.59}
+\newcommand{\VoltajeCarga}{13.58}
+\newcommand{\FuenteVoltajeEntrada}{219.60}
+\newcommand{\FuenteVoltajeSalida}{13.60}
+\newcommand{\AjusteRegulacion}{0.5}
+\newcommand{\VoltajeInicial}{13.50}
+\newcommand{\TiempoDescarga}{70}
+\newcommand{\VoltajeFinal}{12.80}
+% Estos 9 valores dependen del número de estaciones que se tenga en el edificio, así que toca buscar una manera para incluirlos en el informe.
+
+\newcommand{\AntesOffZMax}{234}
+\newcommand{\AntesOffZMin}{456}
+\newcommand{\AntesOffNMax}{768}
+\newcommand{\AntesOffNMin}{234}
+\newcommand{\AntesOffEMax}{123}
+\newcommand{\AntesOffEMin}{456}
+\newcommand{\DespuesOffZMax}{678}
+\newcommand{\DespuesOffZMin}{567}
+\newcommand{\DespuesOffNMax}{345}
+\newcommand{\DespuesOffNMin}{345}
+\newcommand{\DespuesOffEMax}{678}
+\newcommand{\DespuesOffEMin}{123}
+%
+\newcommand{\AntesEficazZ}{55}
+\newcommand{\AntesEficazN}{850}
+\newcommand{\AntesEficazE}{32}
+\newcommand{\DespuesEficazZ}{51}
+\newcommand{\DespuesEficazN}{850}
+\newcommand{\DespuesEficazE}{32}
+%
+\newcommand{\AmplitudCorregidaPromedio}{2345.07}
+%
+\newcommand{\CorreccionVerticalMax}{+4246608}
+\newcommand{\CorreccionVerticalMin}{-4251511}
+\newcommand{\CorreccionVerticalPga}{2186.11}
+\newcommand{\CorreccionNorteMax}{+4306887}
+\newcommand{\CorreccionNorteMin}{-4318181}
+\newcommand{\CorreccionNortePga}{2117.41}
+\newcommand{\CorreccionEsteMax}{+4343695}
+\newcommand{\CorreccionEsteMin}{-4347609}
+\newcommand{\CorreccionEstePga}{2113.69}
+% Todos los valores anteriores tambien son dependientes de la cantidad de estaciones, en este caso son obtenidas ya sea por imágenes o screenshots, inclusive obtenidas por scripts de Python, se va ir viendo la mejor manera de obtenerlos.
+
+\newcommand{\MemoriaExtraibleAlmacenada}{12.80}
+\newcommand{\MemoriaExtraibleCapacidad}{28.80}
+\newcommand{\MemoriaInternaAlmacenada}{7.4}
+\newcommand{\MemoriaInternaCapacidad}{7.4}
+% Son 4 valores los que se tiene que multiplicar por la cantidad de estaciones.
 
 \usepackage[spanish]{babel}
 
@@ -15,18 +81,32 @@
 \usepackage{tikz}
 \usetikzlibrary{calc}
 
-\usepackage[dvipsnames, table]{xcolor}
+\usepackage[table]{xcolor}
+\definecolor{SuAzul}{RGB}{31, 78, 120}
+\definecolor{SuCielo}{RGB}{219, 228, 240}
 
 \usepackage{graphicx}
 
 \usepackage{tabularray}
 \SetTblrInner{
-  row{1} = {bg=RoyalBlue, fg=white},
+  row{1} = {bg=SuAzul, fg=white},
   hlines,
   vlines,
   width = \textwidth
 }
 \UseTblrLibrary{varwidth}
+\SetTblrInner[longtblr]{
+  row{1} = {bg=SuAzul, fg=white},
+  hlines,
+  vlines,
+  width = \textwidth
+}
+\DeclareTblrTemplate{contfoot-text}{default}{}
+\DeclareTblrTemplate{conthead-text}{default}{}
+\SetTblrOuter[longtblr]{
+  entry = none,
+  label = none
+}
 
 \usepackage{lastpage}
 
@@ -34,7 +114,7 @@
 
 \usepackage{titlesec}
 \titleformat{\section}
-{\color{RoyalBlue}\Large\bfseries}
+{\color{SuAzul}\Large\bfseries}
 {\thesection}
 {1em}
 {}
@@ -48,22 +128,59 @@
 {0.25em}
 
 \usepackage{url}
+\urlstyle{sf}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[L]{\includegraphics[scale=0.5]{img/LogoInsitel}}
+\fancyhead[L]{\includegraphics[scale=0.55]{img/LogoInsitel}}
 \fancyhead[R]{
-    Av. La Fontana 1159 - La Molina - Lima - Perú\\
-    E-mail: \url{info@insitel.pe} - \url{ventas@insitel.pe}\\
-    Contacto: +51 951332375
+    {\color{gray} Av. La Fontana 1159 - La Molina - Lima - Perú}\\
+    {\color{gray} E-mail:} {\color{SuAzul} \url{info@insitel.pe}} - {\color{SuAzul} \url{ventas@insitel.pe}}\\
+    {\color{gray} Contacto: +51 951 332 375}
 }
 \fancyfoot[L]{
-    INSTRUMENTACIÓN SÍSMICA Y TELEMETRÍA SAC\\
-    Website: \url{www.insitel.pe}
+    {\color{gray} INSTRUMENTACIÓN SÍSMICA Y TELEMETRÍA SAC}\\
+    {\color{gray} Website:} {\color{SuAzul} \url{www.insitel.pe}}
 }
 \fancyfoot[C]{}
-\fancyfoot[R]{Página \thepage}
+\fancyfoot[R]{
+    {\color{gray} Página \thepage~de \pageref{LastPage}}
+}
 \renewcommand{\footrulewidth}{1pt}
 \renewcommand{\headrulewidth}{1pt}
-\renewcommand{\headrule}{\hbox to\headwidth{\color{gray!25}\leaders\hrule height \headrulewidth\hfill}}
-\renewcommand{\footrule}{\hbox to\headwidth{\color{gray!25}\leaders\hrule height \footrulewidth\hfill}}
+
+\usepackage{fontspec}
+\setmainfont{Calibri}
+
+\directlua{
+    calc = require("calculadora")
+}
+\newcommand{\calcularDOY}[3]{%
+    \directlua{tex.print(calc.doy_formateado(#1, #2, #3))}%
+}
+\newcommand{\calcularDias}[6]{%
+    \directlua{tex.print(calc.diferencia_dias(#1, #2, #3, #4, #5, #6))}%
+}
+\newcommand{\calcularSemisuma}[2]{%
+    \directlua{tex.print(calc.semisuma_formateada("#1", "#2"))}%
+}
+\newcommand{\calcularDiferencia}[2]{%
+    \directlua{tex.print(calc.diferencia_formateada("#1", "#2"))}%
+}
+\newcommand{\calcularPorcentajememoriausada}[2]{
+    \directlua{tex.print(calc.porcentaje_memoria_usada(#1, #2))}
+}
+\newcommand{\calcularPorcentajememorialibre}[2]{
+    \directlua{tex.print(calc.porcentaje_memoria_libre(#1, #2))}
+}
+
+\usepackage{siunitx}
+\sisetup{
+    detect-all,
+    mode = text,
+    per-mode = symbol,
+}
+
+\usepackage{multirow}
+
+\usepackage{longtable}

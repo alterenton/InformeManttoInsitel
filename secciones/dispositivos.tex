@@ -1,0 +1,76 @@
+\section{ESTADO DE LOS DISPOSITIVOS DE ALMACENAMIENTO}
+\begin{longtblr}{
+	row{2,Y} = {bg=SuCielo},
+	row{3,6} = {bg=gray!25},
+	row{4,7} = {font=\footnotesize},
+	colspec = {*{5}{X[c]}},
+	% 2da
+	row{9} = {bg=SuCielo},
+	row{10,13} = {bg=gray!25},
+	row{11,14} = {font=\footnotesize},
+	% 3ra
+	row{16} = {bg=SuCielo},
+	row{17,20} = {bg=gray!25},
+	row{18,21} = {font=\footnotesize},
+}
+	\SetCell[c=5]{l} ESTADO DE LOS DISPOSITIVOS DE ALMACENAMIENTO\\
+	\SetCell[c=5]{l} ACELERÓGRAFO EN TERRENO NATURAL\\
+	\SetCell[c=5]{l} MEMORIA EXTRAÍBLE: DISCO 01\\
+	TIPO DE MEMORIA & DATA ALMACENADA & CAPACIDAD DE LA UNIDAD & PORCENTAJE UTILIZADO PRE-MNTTO & PORCENTAJE DISPONIBLE POST-MNTTO \\
+	Secure Digital SD &
+	\MemoriaExtraibleAlmacenada~GB &
+	\MemoriaExtraibleCapacidad~GB &
+	\calcularPorcentajememoriausada{\MemoriaExtraibleAlmacenada}{\MemoriaExtraibleCapacidad}\% &
+	\calcularPorcentajememorialibre{\MemoriaExtraibleAlmacenada}{\MemoriaExtraibleCapacidad}\% \\
+	\SetCell[c=5]{l} MEMORIA INTERNA: DISCO 02 \\
+	TIPO DE MEMORIA & DATA ALMACENADA & CAPACIDAD DE LA UNIDAD & PORCENTAJE UTILIZADO PRE-MNTTO & PORCENTAJE DISPONIBLE POST-MNTTO \\
+	Compact Flash CF &
+	\MemoriaInternaAlmacenada~GB &
+	\MemoriaInternaCapacidad~GB &
+	\calcularPorcentajememoriausada{\MemoriaInternaAlmacenada}{\MemoriaInternaCapacidad}\% &
+	\calcularPorcentajememorialibre{\MemoriaInternaAlmacenada}{\MemoriaInternaCapacidad}\%$^{(1)}$ \\
+	%
+	\SetCell[c=5]{l} ACELERÓGRAFO EN AISLADORES SÍSMICOS\\
+	\SetCell[c=5]{l} MEMORIA EXTRAÍBLE: DISCO 01\\
+	TIPO DE MEMORIA & DATA ALMACENADA & CAPACIDAD DE LA UNIDAD & PORCENTAJE UTILIZADO PRE-MNTTO & PORCENTAJE DISPONIBLE POST-MNTTO \\
+	Secure Digital SD &
+	\MemoriaExtraibleAlmacenada~GB &
+	\MemoriaExtraibleCapacidad~GB &
+	\calcularPorcentajememoriausada{\MemoriaExtraibleAlmacenada}{\MemoriaExtraibleCapacidad}\% &
+	\calcularPorcentajememorialibre{\MemoriaExtraibleAlmacenada}{\MemoriaExtraibleCapacidad}\% \\
+	\SetCell[c=5]{l} MEMORIA INTERNA: DISCO 02 \\
+	TIPO DE MEMORIA & DATA ALMACENADA & CAPACIDAD DE LA UNIDAD & PORCENTAJE UTILIZADO PRE-MNTTO & PORCENTAJE DISPONIBLE POST-MNTTO \\
+	Compact Flash CF &
+	\MemoriaInternaAlmacenada~GB &
+	\MemoriaInternaCapacidad~GB &
+	\calcularPorcentajememoriausada{\MemoriaInternaAlmacenada}{\MemoriaInternaCapacidad}\% &
+	\calcularPorcentajememorialibre{\MemoriaInternaAlmacenada}{\MemoriaInternaCapacidad}\%$^{(1)}$ \\
+	%
+	\SetCell[c=5]{l} ACELERÓGRAFO EN AZOTEA\\
+	\SetCell[c=5]{l} MEMORIA EXTRAÍBLE: DISCO 01\\
+	TIPO DE MEMORIA & DATA ALMACENADA & CAPACIDAD DE LA UNIDAD & PORCENTAJE UTILIZADO PRE-MNTTO & PORCENTAJE DISPONIBLE POST-MNTTO \\
+	Secure Digital SD &
+	\MemoriaExtraibleAlmacenada~GB &
+	\MemoriaExtraibleCapacidad~GB &
+	\calcularPorcentajememoriausada{\MemoriaExtraibleAlmacenada}{\MemoriaExtraibleCapacidad}\% &
+	\calcularPorcentajememorialibre{\MemoriaExtraibleAlmacenada}{\MemoriaExtraibleCapacidad}\% \\
+	\SetCell[c=5]{l} MEMORIA INTERNA: DISCO 02 \\
+	TIPO DE MEMORIA & DATA ALMACENADA & CAPACIDAD DE LA UNIDAD & PORCENTAJE UTILIZADO PRE-MNTTO & PORCENTAJE DISPONIBLE POST-MNTTO \\
+	Compact Flash CF &
+	\MemoriaInternaAlmacenada~GB &
+	\MemoriaInternaCapacidad~GB &
+	\calcularPorcentajememoriausada{\MemoriaInternaAlmacenada}{\MemoriaInternaCapacidad}\% &
+	\calcularPorcentajememorialibre{\MemoriaInternaAlmacenada}{\MemoriaInternaCapacidad}\%$^{(1)}$ \\
+	%
+	\SetCell[c=5]{l} OBSERVACIONES\\
+	\SetCell[c=5]{l, 17.5cm}
+	\begin{enumerate}
+		\item Se descargó la información (data sísmica) en registro continuo de la memoria extraíble y memoria interna del acelerógrafo.
+		\item {\bfseries\color{SuAzul} A solicitud del IGP, se deja TODO el registro de la información sísmica para que la entidad reguladora realice el procedimiento de descarga de la información y liberación de memoria.}
+		\item La data descargada en modo continuo de la unidad de almacenamiento se copió en la nube para el acceso remoto del cliente. Para el ingreso a la data se entrega un link para la descarga.
+		\item Se habilitó la grabación en la memoria extraíble ``SD-Card'' como unidad prioritaria.
+		\item Se verificó la continuidad de la data descargada.
+		\item Los dispositivos de almacenamiento se dejaron operativos y en modo de adquisición.
+		\item $^{(1)}$ La memoria interna es de tipo circular, es decir, al llegar al límite de su capacidad, se sobreescribe la data más antigua, el propósito de esta unidad es tener un respaldo en almacenamiento de aprox. 2 meses cuando la memoria extraíble llega al límite de su capacidad.
+	\end{enumerate}\\
+\end{longtblr}

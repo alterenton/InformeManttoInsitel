@@ -2,3 +2,7 @@
 \contentsline {section}{\numberline {1}DATOS GENERALES}{2}{}%
 \contentsline {section}{\numberline {2}FECHA DEL MANTENIMIENTO}{2}{}%
 \contentsline {section}{\numberline {3}DESCRIPCIÓN DEL INSTRUMENTO}{2}{}%
+\contentsline {section}{\numberline {4}DISPONIBILIDAD DE LOS DATOS}{3}{}%
+\contentsline {section}{\numberline {5}ESTADO DEL SISTEMA DE SUMINISTRO ELÉCTRICO}{4}{}%
+\contentsline {section}{\numberline {6}ESTADO DEL SENSOR INTERNO}{9}{}%
+\contentsline {section}{\numberline {7}ESTADO DE LOS DISPOSITIVOS DE ALMACENAMIENTO}{10}{}%

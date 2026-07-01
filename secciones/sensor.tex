@@ -1,0 +1,159 @@
+\section{ESTADO DEL SENSOR INTERNO}
+\begin{table}[H]
+    \begin{tblr}{
+        cell{6-7,10-12,14-15}{1} = {font=\footnotesize},
+        row{4,5,9,13} = {font=\footnotesize},
+		cell{6-7}{2-7} = {font=\footnotesize},
+        row{2,Y} = {bg=SuCielo},
+        colspec = {Q[3,l]Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]},
+		row{3,8} = {bg=gray!25},
+		cell{4,5,9}{2-7} = {bg=gray!10},
+		cell{6-7,10-11}{1} = {bg=gray!10},
+    }
+    	\SetCell[c=7]{l} ESTADO DEL SENSOR INTERNO \\
+    	\SetCell[c=7]{l} ACELERÓGRAFO EN TERRENO NATURAL \\
+    	\SetCell[c=7]{l} CENTRADO DE MASA EN LOS TRES CANALES \\
+    	\SetCell[r=2]{} &
+		\SetCell[c=3]{c} ANTES DEL MANTENIMIENTO &&&
+		\SetCell[c=3]{c} DESPUES DEL MANTENIMIENTO \\
+    	& HNZ & HNN & HNE & HNZ & HNN & HNE\\
+    	NIVEL DE OFFSET &
+		\calcularSemisuma{\AntesOffZMax}{\AntesOffZMin} &
+		\calcularSemisuma{\AntesOffNMax}{\AntesOffNMin} &
+		\calcularSemisuma{\AntesOffEMax}{\AntesOffEMin} &
+		\calcularSemisuma{\DespuesOffZMax}{\DespuesOffZMin} &
+		\calcularSemisuma{\DespuesOffNMax}{\DespuesOffNMin} &
+		\calcularSemisuma{\DespuesOffEMax}{\DespuesOffEMin} 
+		\\
+    	VALOR EFICAZ - RMS &
+		\AntesEficazZ &
+		\AntesEficazN &
+		\AntesEficazE &
+		\DespuesEficazZ &
+		\DespuesEficazN &
+		\DespuesEficazE
+		\\
+    	\SetCell[c=7]{l} CALIBRACIÓN DEL SENSOR \\
+    	& \SetCell[c=2]{c} FORMA DE ONDA &&
+		\SetCell[c=2]{c} AMPLITUD &&
+		\SetCell[c=2]{c} FRECUENCIA \\
+    	SEÑAL DE CALIBRACIÓN &
+		\SetCell[c=2]{c} Sinusoidal &&
+		\SetCell[c=2]{c} 1.0 $V_{DC}$ &&
+		\SetCell[c=2]{c} 0.25 Hz \\
+    	SEÑAL CORREGIDA PROMEDIO &
+		\SetCell[c=2]{c} Sinusoidal &&
+		\SetCell[c=2]{c} \qty{\AmplitudCorregidaPromedio}{\centi\metre\per\square\second} &&
+		\SetCell[c=2]{c} 0.25 Hz \\
+    	\SetCell[c=7]{l} OBSERVACIONES\\
+    	\SetCell[c=7]{l, 17.5cm}
+    	\begin{enumerate}
+			\item No corrigió el nivel offset en los tres canales, ya que el valor promedio en cada canal se encontraba muy por debajo del umbral de disparo [1\%g = 10mg]
+			\item Con el archivo de calibración se procedió a realizar la corrección instrumental y verificar su valor en cuentas, siendo los valores en cada eje los siguientes:
+			\begin{itemize}
+				\item VERTICAL: [\num{\CorreccionVerticalMin}; \num{\CorreccionVerticalMax}] - PGA: \qty{\CorreccionVerticalPga}{\centi\metre\per\square\second}
+				\item NORTE-SUR: [\num{\CorreccionNorteMin}; \num{\CorreccionNorteMax}] - PGA: \qty{\CorreccionNortePga}{\centi\metre\per\square\second}
+				\item ESTE-OESTE: [\num{\CorreccionEsteMin}; \num{\CorreccionEsteMax}] - PGA: \qty{\CorreccionEstePga}{\centi\metre\per\square\second}
+			\end{itemize}
+    		\item Con el espectrograma se obtiene la frecuencia de la onda sinusoidal registrada en 0.25Hz.
+    		\item Para la reconstrución de la señal en términos de aceleración se utilizó la respuesta instrumental mostrada en el <Apartado 11: Formato de Polos y Ceros> de este informe.
+    	\end{enumerate}
+    \end{tblr}
+\end{table}
+
+% \begin{table}[H]
+%     \begin{tblr}{
+%         cell{6-7,10-12,14-15}{1} = {font=\footnotesize},
+%         row{4,5,9,13} = {font=\footnotesize},
+%         row{2} = {bg=SuAzul!50},
+%         row{3,8,16} = {bg=gray!25},
+%         cell{6-7,10-12,14-15}{1} = {bg=gray!25},
+%         cell{4,5,9,13}{2-7} = {bg=gray!25},
+%         colspec = {Q[3,l]Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]Q[1,c]},
+%         cell{6-7}{2-7} = {font=\footnotesize},
+%     }
+%     	\SetCell[c=7]{l} ESTADO DEL SENSOR INTERNO\\
+%     	\SetCell[c=7]{l} ACELERÓGRAFO AZOTEA\\
+%     	\SetCell[c=7]{l} CENTRADO DE MASA EN LOS TRES CANALES\\
+%     	\SetCell[r=2]{} & \SetCell[c=3]{c} ANTES DEL MANTENIMIENTO &&& \SetCell[c=3]{c} DESPUES DEL MANTENIMIENTO\\
+%     	& HNZ & HNN & HNE & HNZ & HNN & HNE\\
+%     	NIVEL DE OFFSET (count) &
+% 		\calcularSemisuma{\oaazmax}{\oaazmin} & \calcularSemisuma{\oaanmax}{\oaanmin} & \calcularSemisuma{\oaaemax}{\oaaemin} & \calcularSemisuma{\oadzmax}{\oadzmin} & \calcularSemisuma{\oadnmax}{\oadnmin} & \calcularSemisuma{\oademax}{\oademin}\\
+%     	DIFERENCIA PICO A PICO &
+% 		\oaazdif & \oaandif & \oaaedif & \oadzdif & \oadndif & \oadedif\\
+%     	\SetCell[c=7]{l} CALIBRACIÓN DEL SENSOR\\
+%     	& \SetCell[c=2]{c} FORMA DE ONDA && \SetCell[c=2]{c} AMPLITUD && \SetCell[c=2]{c} ANCHO DE PULSO\\
+%     	SEÑAL DE CALIBRACIÓN INYECTADA (EJE Z) & \SetCell[c=2]{c} Pulso && \SetCell[c=2]{c} 0.80 g && \SetCell[c=2]{c} 5.0 seg\\
+%     	SEÑAL DE CALIBRACIÓN INYECTADA (EJE Y) & \SetCell[c=2]{c} Pulso && \SetCell[c=2]{c} 0.80 g && \SetCell[c=2]{c} 5.0 seg\\
+%     	SEÑAL DE CALIBRACIÓN INYECTADA (EJE X) & \SetCell[c=2]{c} Pulso && \SetCell[c=2]{c} 0.80 g && \SetCell[c=2]{c} 5.0 seg\\
+%     	& \SetCell[c=2]{c} CANAL VERTICAL && \SetCell[c=2]{c} CANAL NORTE-SUR && \SetCell[c=2]{c} CANAL ESTE-OESTE\\
+%     	SEÑAL RECONSTRUIDA EN CUENTAS (count) &
+% 		\SetCell[c=2]{c} \num{1687945.29} &&
+% 		\SetCell[c=2]{c} \num{1674033.84} &&
+% 		\SetCell[c=2]{c} \num{1696944.57} \\
+%     	SEÑAL RECONSTRUIDA EN ACELERACIÓN (g) &
+% 		\SetCell[c=2]{c} \num{0.786423} &&
+% 		\SetCell[c=2]{c} \num{0.793545} &&
+% 		\SetCell[c=2]{c} \num{0.804486} \\
+%     	\SetCell[c=7]{l} OBSERVACIONES\\
+%     	\SetCell[c=7]{l, 17.5cm}
+%     	\begin{enumerate}
+%     		\item El centrado de masa se realizó aplicando un filtro pasa alto IIR que establece la frecuencia de corte a 0.01Hz.
+%     		\item Para la reconstrución de la señal en términos de aceleración se utilizó la respuesta instrumental mostrada en el <Apartado 11: Formato de Polos y Ceros> a este informe.
+%     	\end{enumerate}
+%     \end{tblr}
+% \end{table}
+
+
+\begin{longtable}{|c|p{6cm}|c|p{2cm}|*{6}{c|}}
+\hline
+
+\rowcolor{SuAzul}
+\multicolumn{10}{|l|}{{\color{white} ESTADO DEL SENSOR INTERNO}} \\ \hline
+
+\rowcolor{SuCielo}
+\multicolumn{10}{|l|}{VALIDACIÓN CON SISMOS REGISTRADOS} \\ \hline
+
+\rowcolor{gray!25}
+\multirow[t]{2}{*}{\footnotesize Ev.} &
+\multirow[t]{2}{*}{\footnotesize REFERENCIA} &
+\multirow[t]{2}{*}{\footnotesize Mg.} &
+\multirow[t]{2}{*}{\footnotesize HORA} &
+\multicolumn{3}{c|}{\footnotesize PGA SÓTANO (mm/s$^2$)} &
+\multicolumn{3}{c|}{\footnotesize PGA AZOTEA (mm/s$^2$)} \\ \cline{5-7}
+
+\rowcolor{gray!25} &&&&
+E-W & N-S & V &
+E-W & N-S & V \\ \hline
+
+% \csvreader[
+%     head to column names,
+%     separator=semicolon,
+%     late after line=\\\hline
+% ]{ondas/pga.csv}{}{
+%     \evento &
+%     \referencia &
+%     \magnitud &
+%     \hora &
+%     \sote &q
+%     \sotn &
+%     \sotz &
+%     \azoe &
+%     \azon &
+%     \azoz
+% }
+
+\rowcolor{SuCielo}
+\multicolumn{10}{|l|}{OBSERVACIONES} \\ \hline
+
+\multicolumn{10}{|p{17.5cm}|}{\vspace{0.25em}
+\begin{minipage}{\linewidth}
+	\begin{itemize}
+		\item Se presentan los sismos publicados por el Instituto Geofísico del Perú - IGP durante el período de descarga [\DiaIni/\MesIni/\AnioIni~al \DiaMantto/\MesMantto/\AnioMantto] Fuente: [{\color{SuAzul}\url{https://ultimosismo.igp.gob.pe/productos/reportes-sismicos}}]
+		\item Se observa que el sismo más significativo dentro del período de descarga ha sido el acontecido el 26/02/2026 18:21:08 a 36km al O de Chilca, Cañete - Lima con una magnitud de 5.0 ML habiendo generado una aceleración máxima de 551 mm/s2 en la componente Vertical.
+		\item Las formas de onda de los acelerogramas se presentan en el Apartado 11 <Visualización de registros sísmicos> donde las unidades de aceleración están dados en [mm/s2] para una mejor visualización.
+	\end{itemize}
+\end{minipage}
+} \\ \hline
+
+\end{longtable}

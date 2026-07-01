@@ -1,24 +1,46 @@
 \section{DESCRIPCIÓN DEL INSTRUMENTO}
-\begin{table}[H]
-    \begin{tblr}{
-        cell{3-6}{1} = {bg=gray!25},
-        row{2} = {bg=RoyalBlue!50},
-        row{Z} = {bg=white},
-        colspec={Q[1,l] Q[6,l]},
-    }
-    	\SetCell[c=2]{l} DESCRIPCIÓN DE LOS INSTRUMENTOS\\
-    	\SetCell[c=2]{l} ACELERÓGRAFO SÓTANO\\
-    	MARCA & SARA Electronic Instruments\\
-    	MODELO & AceBox\\
-    	SERIE &
-        % \Serie
-        \\
-    	\SetCell[c=2]{l} OBSERVACIONES\\
-    	\SetCell[c=2]{l}
-    	\begin{enumerate}
-    		\item Acelerógrafos triaxiales de fuerza balanceada con transductor capacitivo
-    		\item Topología triaxial - ortogonal
-    		\item Módulo de registro y sensor de aceleración integrado
-    	\end{enumerate}\\
-    \end{tblr}
-\end{table}
+\begin{longtblr}{
+	cell{3-6}{1} = {bg=gray!10},
+	row{2,Y} = {bg=SuCielo},
+	row{Z} = {bg=white},
+	colspec={Q[1,l] Q[6,l]},
+	% 2da
+	row{7} = {bg=SuCielo},
+	cell{8-11}{1} = {bg=gray!10},
+	% 3ra
+	row{12} = {bg=SuCielo},
+	cell{13-16}{1} = {bg=gray!10},
+}
+	\SetCell[c=2]{l} DESCRIPCIÓN DE LOS INSTRUMENTOS \\
+	\SetCell[c=2]{l} ACELERÓGRAFO EN TERRENO NATURAL \\
+	MARCA & SARA Electronic Instruments \\
+	MODELO & AceBox \\
+	SERIE &
+	\NroSerie
+	\\
+	FIRMWARE & 4.5.23 \\
+	%
+	\SetCell[c=2]{l} ACELERÓGRAFO EN AISLADORES SÍSMICOS \\
+	MARCA & SARA Electronic Instruments \\
+	MODELO & AceBox \\
+	SERIE &
+	\NroSerie
+	\\
+	FIRMWARE & 4.5.23 \\
+	%
+	\SetCell[c=2]{l} ACELERÓGRAFO EN AZOTEA \\
+	MARCA & SARA Electronic Instruments \\
+	MODELO & AceBox \\
+	SERIE &
+	\NroSerie
+	\\
+	FIRMWARE & 4.5.23 \\
+	%
+	\SetCell[c=2]{l} OBSERVACIONES\\
+	\SetCell[c=2]{l}
+	\begin{enumerate}
+		\item Acelerógrafos triaxiales de fuerza balanceada con transductor capacitivo
+		\item Topología triaxial - ortogonal
+		\item Módulo de registro y sensor de aceleración integrado
+	\end{enumerate}\\
+\end{longtblr}

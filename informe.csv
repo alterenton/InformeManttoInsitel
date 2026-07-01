@@ -1,0 +1,37 @@
+NroInforme;37
+Edifico;Hospital San Juan de Matucana
+CantidadEquipos;3
+Codigo;LR01N
+AnioMantto;2025
+MesMantto;09
+DiaMantto;22
+
+
+
+
+
+
+
+
+
+Marca;Nanometrics Inc.
+Modelo;TitanSMA
+NroSerie;1974,2032,2094
+FirmwareVersion;4.5.23
+
+Codigo;ED.LR01N.00,ED.LR01N.10,ED.LR01N.20
+
+FechaInicioData;27/08/2024
+TamanoData;12.20
+NroArchivos;34509
+NroCarpetas;417
+LinkDescarga;https://mega.nz/folder/gfdgfdgdf
+ControladorVoltajeEntrada;13.59
+ControladorVoltajeSalida;13.59
+VoltajeCarga;13.58
+FuenteVoltajeEntrada;219.69
+FuenteVoltajeSalida;13.60
+Ajuste;0.4
+VoltajeInicial;13.50
+TiempoDescarga;70
+VoltajeFinal;12.80
