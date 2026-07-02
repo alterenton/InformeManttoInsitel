@@ -1,0 +1,38 @@
+\section{ESTADO DEL SISTEMA DE TIEMPO}
+\begin{longtblr}{
+	row{2,Y} = {bg=SuCielo},
+	row{3,5} = {gray!25},
+	colspec = {*{4}{X[c]}},
+	% 2da
+	row{7} = {bg=SuCielo},
+	row{8,10} = {gray!25},
+	% 3ra
+	row{12} = {bg=SuCielo},
+	row{13,15} = {gray!25},
+}
+	\SetCell[c=4]{l} ESTADO DEL SISTEMA DE TIEMPO GNSS \\
+	\SetCell[c=4]{l} ACELERÓGRAFO EN TERRENO NATURAL \\
+	ESTADO & ENGANCHE SATELITAL & INCERTIDUMBRE & MODO DE ENCENDIDO \\
+	Operativo & \SatelitesTerreno~GNSS & \qty{\IncertidumbreTerreno}{\micro\second} (promedio) & Duty Cycled \\
+	TIPO DE COORDENADAS & LATITUD & LONGITUD & ALTITUD \\
+	Geográficas & \LatitudTerreno~S & \LongitudTerreno~W & \AltitudTerreno~m.s.n.m. \\
+	%
+	\SetCell[c=4]{l} ACELERÓGRAFO EN AISLADORES SÍSMICOS \\
+	ESTADO & ENGANCHE SATELITAL & INCERTIDUMBRE & MODO DE ENCENDIDO \\
+	Operativo & \SatelitesTerreno~GNSS & \qty{\IncertidumbreTerreno}{\micro\second} (promedio) & Duty Cycled \\
+	TIPO DE COORDENADAS & LATITUD & LONGITUD & ALTITUD \\
+	Geográficas & \LatitudTerreno~S & \LongitudTerreno~W & \AltitudTerreno~m.s.n.m. \\
+	%
+	\SetCell[c=4]{l} ACELERÓGRAFO EN AZOTEA \\
+	ESTADO & ENGANCHE SATELITAL & INCERTIDUMBRE & MODO DE ENCENDIDO \\
+	Operativo & \SatelitesTerreno~GNSS & \qty{\IncertidumbreTerreno}{\micro\second} (promedio) & Duty Cycled \\
+	TIPO DE COORDENADAS & LATITUD & LONGITUD & ALTITUD \\
+	Geográficas & \LatitudTerreno~S & \LongitudTerreno~W & \AltitudTerreno~m.s.n.m. \\
+	%
+	\SetCell[c=4]{l} OBSERVACIONES\\
+	\SetCell[c=4]{l, 17.5cm}
+	\begin{enumerate}
+		\item Las antenas están recibiendo correctamente las señales satélitales, sincronizando correctamente al acelerógrafo, los parámetros de tiempo UTC y ubicación.
+		\item Los empalmes de los conectores TNC (hacia la antena) y BNC (hacia el acelerógrafo) se encuentran en buen estado.
+	\end{enumerate}
+\end{longtblr}

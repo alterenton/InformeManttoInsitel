@@ -6,3 +6,9 @@
 \contentsline {section}{\numberline {5}ESTADO DEL SISTEMA DE SUMINISTRO ELÉCTRICO}{4}{}%
 \contentsline {section}{\numberline {6}ESTADO DEL SENSOR INTERNO}{9}{}%
 \contentsline {section}{\numberline {7}ESTADO DE LOS DISPOSITIVOS DE ALMACENAMIENTO}{10}{}%
+\contentsline {section}{\numberline {8}ESTADO DEL SISTEMA DE TIEMPO}{11}{}%
+\contentsline {section}{\numberline {9}IMÁGENES DE REFERENCIA}{13}{}%
+\contentsline {subsection}{\numberline {9.1}DISPONIBILIDAD DE LOS DATOS}{13}{}%
+\contentsline {subsection}{\numberline {9.2}ESTADO FÍSICO DEL ACELERÓGRAFO}{14}{}%
+\contentsline {subsection}{\numberline {9.3}ESTADO DEL SISTEMA DE SUMINISTRO ELÉCTRICO}{16}{}%
+\contentsline {subsection}{\numberline {9.4}ESTADO DEL SENSOR INTERNO}{18}{}%

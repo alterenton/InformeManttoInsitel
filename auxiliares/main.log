@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.6.5)  1 JUL 2026 18:25
+This is LuaHBTeX, Version 1.25.7 (MiKTeX 26.5) (format=lualatex 2026.6.5)  2 JUL 2026 13:56
  restricted system commands enabled.
 **C:/Users/Hyerson/Documents/GitHub/InformeManttoInsitel/main.tex
 (C:/Users/Hyerson/Documents/GitHub/InformeManttoInsitel/main.tex
@@ -196,9 +196,9 @@ loadhyph-es.tex UTF-8 Spanish hyphenation patterns
 (C:/Users/Hyerson/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/patterns/
 tex/hyph-es.tex))))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 71.
+on input line 78.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 71.
+ on input line 78.
 
 (C:/Users/Hyerson/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
@@ -1316,7 +1316,404 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
 
-[10])
+[10]) (./secciones/sistema.tex
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 38.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[11]) (./secciones/imagenes.tex
+<example-image.pdf, id=53, 321.2pt x 240.9pt>
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 12.
+(luatex.def)             Requested size: 483.69684pt x 2903.95978pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 12.
+(luatex.def)             Requested size: 483.69684pt x 2903.95978pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 12.
+(luatex.def)             Requested size: 483.69684pt x 2903.95978pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 12.
+(luatex.def)             Requested size: 483.69684pt x 2903.95978pt.
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 27.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[12]
+Overfull \vbox (2348.12114pt too high) has occurred while \output is active []
+
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 27.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[13<C:/Users/Hyerson/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.p
+df>]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 41.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+
+Overfull \vbox (36.57921pt too high) has occurred while \output is active []
+
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 43.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[14]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 73.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+
+Overfull \vbox (4.57921pt too high) has occurred while \output is active []
+
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 75.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[15]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 108.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[16]
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: example-image.pdf Graphic file (type pdf)
+<use example-image.pdf>
+Package luatex.def Info: example-image.pdf  used on input line 108.
+(luatex.def)             Requested size: 321.19922pt x 240.8994pt.
+File: img/LogoInsitel.png Graphic file (type png)
+<use img/LogoInsitel.png>
+Package luatex.def Info: img/LogoInsitel.png  used on input line 170.
+(luatex.def)             Requested size: 132.90945pt x 37.26431pt.
+
+
+Package fancyhdr Warning: \headheight is too small (40.0pt): 
+(fancyhdr)                Make it at least 41.61435pt, for example:
+(fancyhdr)                \setlength{\headheight}{41.61435pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
+
+[17])
 File: img/LogoInsitel.png Graphic file (type png)
 <use img/LogoInsitel.png>
 Package luatex.def Info: img/LogoInsitel.png  used on input line 18.
@@ -1329,7 +1726,7 @@ Package fancyhdr Warning: \headheight is too small (40.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.61435pt}.
 
-[11] 
+[18] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (C:/Users/Hyerson/Documents/GitHub/InformeManttoInsitel/auxiliares/main.aux
 LaTeX Info: Redefining \. on input line 8.
@@ -1342,13 +1739,13 @@ L3 programming layer <2026-04-28>
 )
 
 Here is how much of LuaTeX's memory you used:
- 27633 strings out of 475892
+ 27850 strings out of 475892
  195347,1144653 words of node,token memory allocated
- 515 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 4 glue, 3 kern, 1 glyph, 11 attribute, 61 glue_spec
-, 6 attribute_list, 2 write nodes
-   avail lists: 2:9053,3:365,4:260,5:898,6:192,7:11686,8:59,9:5390,10:25,11:949
- 49640 multiletter control sequences out of 65536+600000
+ 635 words of node memory still in use:
+   10 hlist, 1 vlist, 4 rule, 7 glue, 3 kern, 1 glyph, 17 attribute, 61 glue_spe
+c, 9 attribute_list, 2 write nodes
+   avail lists: 2:9044,3:396,4:261,5:902,6:192,7:11683,8:60,9:5381,10:25,11:949
+ 49676 multiletter control sequences out of 65536+600000
  60 fonts using 27777103 bytes
  107i,17n,157p,482b,3050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/hyerson/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans1
@@ -1358,9 +1755,9 @@ type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Hyerson/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Hyerson/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Hyerson/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on main.pdf (12 pages, 239616 bytes).
+Output written on main.pdf (19 pages, 273731 bytes).
 
-PDF statistics: 91 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 1048576)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 100000000)
 
