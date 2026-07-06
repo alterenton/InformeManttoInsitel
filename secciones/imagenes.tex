@@ -188,27 +188,32 @@
         colspec = {X}
     }
         ESTADO DEL SENSOR INTERNO \\
-        ACELERÓGRAFO SÓTANO \\
+        ACELERÓGRAFO EN TERRENO NATURAL \\
         4. CALIBRACIÓN DEL ACELERÓGRAFO - INYECCIÓN DE LA SEÑAL DE CALIBRACIÓN [OUTPUT - \unit{\centi\metre\per\second\squared}] \\
         % \SetCell{c} \includegraphics[angle=0, width=17cm, trim=120 160 900 400, clip=true, draft=false]{graficas/sotano/calibracion}\\
         % \SetCell{c} \includegraphics[angle=0, width=17cm, trim=70 30 20 60, clip=true, draft=false]{graficas/sotano/descompuesta/cuentas}\\
         \SetCell{l, 16cm} {Superior: Señal de calibración inyectada vía software desde el acelerógrafo (forma de onda: pulso cuadrado y 5 seg de duración)\\Inferior: Señal sensada y registrada por el acelerógrafo (en cuentas)}\\
     \end{tblr}
 \end{table}
-% \begin{table}[H]
-%     \begin{tblr}{
-%         row{2} = {bg=RoyalBlue!50},
-%         row{3,6} = {bg=gray!25},
-%         colspec = {X}
-%     }
-%         ESTADO DEL SENSOR INTERNO\\
-%         ACELERÓGRAFO SÓTANO\\
-%         5. CALIBRACIÓN DEL ACELERÓGRAFO - INYECCIÓN DE LA SEÑAL DE CALIBRACIÓN [OUTPUT - mm/s2]\\
-%         \SetCell{c} \includegraphics[angle=0, width=17cm, trim=120 160 900 400, clip=true, draft=false]{graficas/sotano/calibracion}\\
-%         \SetCell{c} \includegraphics[angle=0, width=17cm, trim=70 30 20 60, clip=true, draft=false]{graficas/sotano/descompuesta/aceleracion}\\
-%         {Superior: Señal de calibración inyectada vía software desde el acelerógrafo (forma de onda: pulso cuadrado y 5 seg de duración)\\Inferior: Señal reconstruída utilizando la respuesta instrumental (en términos de aceleración)}\\
-%     \end{tblr}
-% \end{table}
+\begin{table}[H]
+    \begin{tblr}{
+        row{2} = {bg=SuCielo},
+        row{3} = {bg=gray!25},
+        colspec = {X}
+    }
+        ESTADO DEL SENSOR INTERNO \\
+        ACELERÓGRAFO EN TERRENO NATURAL \\
+        5. CALIBRACIÓN DEL ACELERÓGRAFO - INYECCIÓN DE LA SEÑAL DE CALIBRACIÓN [ESPECTROGRAMA] \\
+        % \SetCell{c} \includegraphics[angle=0, width=17cm, trim=90 35 85 60, clip=true, draft=false]{graficas/sotano/espectrograma}\\
+        {
+            Espectrograma de la señal calibrada \\
+            Eje X: Señal de calibración en el dominio del tiempo, se observa que en la frecuencia de calibración los valores de amplitud en términos de cuentas. \\
+            Eje Y: Señal de calibración en el dominio de la frecuencia, se observa que la frecuencia de calibración es de 0.25Hz, validando la reconstrucción de la señal.
+        } \\
+    \end{tblr}
+\end{table}
+
+
 % \begin{table}[H]
 %     \begin{tblr}{
 %         row{2} = {bg=RoyalBlue!50},

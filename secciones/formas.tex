@@ -1,0 +1,40 @@
+\section{FORMAS DE ONDA}
+\subsection{ESTACIÓN ACELEROMÉTRICA SÓTANO}
+\csvreader[
+    head to column names,
+    separator=semicolon
+]{ondas/pga.csv}{}{
+    \subsubsection*{Evento \evento}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=0.55\textwidth]
+        {ondas/evento_\evento_180min}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=0.55\textwidth]
+        {ondas/evento_\evento_10min}
+    \end{figure}
+}
+
+\subsection{ESTACIÓN ACELEROMÉTRICA AZOTEA}
+\csvreader[
+    head to column names,
+    separator=semicolon
+]{ondas_azotea/pga.csv}{}{
+    \subsubsection*{Evento \evento}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=0.55\textwidth]
+        {ondas/evento_\evento_180min}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[height=0.55\textwidth]
+        {ondas/evento_\evento_10min}
+    \end{figure}
+}

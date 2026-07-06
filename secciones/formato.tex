@@ -1,0 +1,256 @@
+\section{FORMATO DE POLOS Y CEROS}
+\subsection{ESTACIÓN ACELEROMÉTRICA SÓTANO}
+\subsubsection{RESPUESTA INSTRUMENTAL | CANAL VERTICAL}
+\begin{table}[H]
+    \begin{tblr}{
+        colspec={ll},
+        vlines=0pt,
+        hlines=0pt,
+        row{1} = {bg=white, fg=black}
+    }
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \ttfamily * NETWORK (KNETWK)  & \ttfamily : ED \\
+    \ttfamily * STATION (KSTNM)   & \ttfamily : \Codigo \\
+    \ttfamily * LOCATION (KHOLE)  & \ttfamily : 00 \\
+    \ttfamily * CHANNEL (KCMPNM)  & \ttfamily : HNZ \\
+    \ttfamily * CREATED           & \ttfamily : --- \\
+    \ttfamily * START             & \ttfamily : --- \\
+    \ttfamily * END               & \ttfamily : 2599-12-31T23:59:59 \\
+    \ttfamily * DESCRIPTION       & \ttfamily : \edificio~Sótano \\
+    \ttfamily * LATITUDE          & \ttfamily : \Latsot \\
+    \ttfamily * LONGITUDE         & \ttfamily : \Longsot \\
+    \ttfamily * ELEVATION         & \ttfamily : \Altsot \\
+    \ttfamily * DEPTH             & \ttfamily : 0.0 \\
+    \ttfamily * SAMPLE RATE       & \ttfamily : 100.0 \\
+    \ttfamily * INPUT UNIT        & \ttfamily : M \\
+    \ttfamily * OUTPUT UNIT       & \ttfamily : COUNTS \\
+    \ttfamily * INSTTYPE          & \ttfamily : SA10, DC to 200 Hz, 10V differential full scale vo \\
+    \ttfamily * INSTGAIN          & \ttfamily : 2.549290e-01 (M/S**2) \\
+    \ttfamily * COMMENT           & \ttfamily : ACEBOX-SL06 \Serie \\
+    \ttfamily * SENSITIVITY       & \ttfamily : 2.138570e+05 (M/S**2) \\
+    \ttfamily * A0                & \ttfamily : 1.708879e+16 \\
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \SetCell[c=2]{l}\ttfamily ZEROS 2 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily POLES 5 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 +8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 -8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 +6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 -6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -5.045690e+03 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily CONSTANT 	+3.654557e+21 \\
+    \end{tblr}
+\end{table}
+\subsubsection{RESPUESTA INSTRUMENTAL | CANAL ESTE-OESTE}
+\begin{table}[H]
+    \begin{tblr}{
+        colspec={ll},
+        vlines=0pt,
+        hlines=0pt,
+        row{1} = {bg=white, fg=black}
+    }
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \ttfamily * NETWORK (KNETWK)  & \ttfamily : ED \\
+    \ttfamily * STATION (KSTNM)   & \ttfamily : \Codigo \\
+    \ttfamily * LOCATION (KHOLE)  & \ttfamily : 00 \\
+    \ttfamily * CHANNEL (KCMPNM)  & \ttfamily : HNE \\
+    \ttfamily * CREATED           & \ttfamily : --- \\
+    \ttfamily * START             & \ttfamily : --- \\
+    \ttfamily * END               & \ttfamily : 2599-12-31T23:59:59 \\
+    \ttfamily * DESCRIPTION       & \ttfamily : \edificio~Sótano \\
+    \ttfamily * LATITUDE          & \ttfamily : \Latsot \\
+    \ttfamily * LONGITUDE         & \ttfamily : \Longsot \\
+    \ttfamily * ELEVATION         & \ttfamily : \Altsot \\
+    \ttfamily * DEPTH             & \ttfamily : 0.0 \\
+    \ttfamily * SAMPLE RATE       & \ttfamily : 100.0 \\
+    \ttfamily * INPUT UNIT        & \ttfamily : M \\
+    \ttfamily * OUTPUT UNIT       & \ttfamily : COUNTS \\
+    \ttfamily * INSTTYPE          & \ttfamily : SA10, DC to 200 Hz, 10V differential full scale vo \\
+    \ttfamily * INSTGAIN          & \ttfamily : 2.549290e-01 (M/S**2) \\
+    \ttfamily * COMMENT           & \ttfamily : ACEBOX-SL06 \Serie \\
+    \ttfamily * SENSITIVITY       & \ttfamily : 2.138570e+05 (M/S**2) \\
+    \ttfamily * A0                & \ttfamily : 1.708879e+16 \\
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \SetCell[c=2]{l}\ttfamily ZEROS 2 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily POLES 5 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 +8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 -8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 +6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 -6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -5.045690e+03 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily CONSTANT 	+3.654557e+21 \\
+    \end{tblr}
+\end{table}
+\subsubsection{RESPUESTA INSTRUMENTAL | CANAL NORTE-SUR}
+\begin{table}[H]
+    \begin{tblr}{
+        colspec={ll},
+        vlines=0pt,
+        hlines=0pt,
+        row{1} = {bg=white, fg=black}
+    }
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \ttfamily * NETWORK (KNETWK)  & \ttfamily : ED \\
+    \ttfamily * STATION (KSTNM)   & \ttfamily : \Codigo \\
+    \ttfamily * LOCATION (KHOLE)  & \ttfamily : 00 \\
+    \ttfamily * CHANNEL (KCMPNM)  & \ttfamily : HNN \\
+    \ttfamily * CREATED           & \ttfamily : --- \\
+    \ttfamily * START             & \ttfamily : --- \\
+    \ttfamily * END               & \ttfamily : 2599-12-31T23:59:59 \\
+    \ttfamily * DESCRIPTION       & \ttfamily : \edificio~Sótano \\
+    \ttfamily * LATITUDE          & \ttfamily : \Latsot \\
+    \ttfamily * LONGITUDE         & \ttfamily : \Longsot \\
+    \ttfamily * ELEVATION         & \ttfamily : \Altsot \\
+    \ttfamily * DEPTH             & \ttfamily : 0.0 \\
+    \ttfamily * SAMPLE RATE       & \ttfamily : 100.0 \\
+    \ttfamily * INPUT UNIT        & \ttfamily : M \\
+    \ttfamily * OUTPUT UNIT       & \ttfamily : COUNTS \\
+    \ttfamily * INSTTYPE          & \ttfamily : SA10, DC to 200 Hz, 10V differential full scale vo \\
+    \ttfamily * INSTGAIN          & \ttfamily : 2.549290e-01 (M/S**2) \\
+    \ttfamily * COMMENT           & \ttfamily : ACEBOX-SL06 \Serie \\
+    \ttfamily * SENSITIVITY       & \ttfamily : 2.138570e+05 (M/S**2) \\
+    \ttfamily * A0                & \ttfamily : 1.708879e+16 \\
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \SetCell[c=2]{l}\ttfamily ZEROS 2 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily POLES 5 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 +8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 -8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 +6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 -6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -5.045690e+03 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily CONSTANT 	+3.654557e+21 \\
+    \end{tblr}
+\end{table}
+
+\subsection{ESTACIÓN ACELEROMÉTRICA AZOTEA}
+\subsubsection{RESPUESTA INSTRUMENTAL | CANAL VERTICAL}
+\begin{table}[H]
+    \begin{tblr}{
+        colspec={ll},
+        vlines=0pt,
+        hlines=0pt,
+        row{1} = {bg=white, fg=black}
+    }
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \ttfamily * NETWORK (KNETWK)  & \ttfamily : ED \\
+    \ttfamily * STATION (KSTNM)   & \ttfamily : \Codigo \\
+    \ttfamily * LOCATION (KHOLE)  & \ttfamily : 10 \\
+    \ttfamily * CHANNEL (KCMPNM)  & \ttfamily : HNZ \\
+    \ttfamily * CREATED           & \ttfamily : --- \\
+    \ttfamily * START             & \ttfamily : --- \\
+    \ttfamily * END               & \ttfamily : 2599-12-31T23:59:59 \\
+    \ttfamily * DESCRIPTION       & \ttfamily : \edificio~Azotea \\
+    \ttfamily * LATITUDE          & \ttfamily : \Latazo \\
+    \ttfamily * LONGITUDE         & \ttfamily : \Longazo \\
+    \ttfamily * ELEVATION         & \ttfamily : \Altazo \\
+    \ttfamily * DEPTH             & \ttfamily : 0.0 \\
+    \ttfamily * SAMPLE RATE       & \ttfamily : 100.0 \\
+    \ttfamily * INPUT UNIT        & \ttfamily : M \\
+    \ttfamily * OUTPUT UNIT       & \ttfamily : COUNTS \\
+    \ttfamily * INSTTYPE          & \ttfamily : SA10, DC to 200 Hz, 10V differential full scale vo \\
+    \ttfamily * INSTGAIN          & \ttfamily : 2.549290e-01 (M/S**2) \\
+    \ttfamily * COMMENT           & \ttfamily : ACEBOX-SL06 \number\numexpr\Serie+1\relax \\
+    \ttfamily * SENSITIVITY       & \ttfamily : 2.138570e+05 (M/S**2) \\
+    \ttfamily * A0                & \ttfamily : 1.708879e+16 \\
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \SetCell[c=2]{l}\ttfamily ZEROS 2 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily POLES 5 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 +8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 -8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 +6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 -6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -5.045690e+03 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily CONSTANT 	+3.654557e+21 \\
+    \end{tblr}
+\end{table}
+\subsubsection{RESPUESTA INSTRUMENTAL | CANAL ESTE-OESTE}
+\begin{table}[H]
+    \begin{tblr}{
+        colspec={ll},
+        vlines=0pt,
+        hlines=0pt,
+        row{1} = {bg=white, fg=black}
+    }
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \ttfamily * NETWORK (KNETWK)  & \ttfamily : ED \\
+    \ttfamily * STATION (KSTNM)   & \ttfamily : \Codigo \\
+    \ttfamily * LOCATION (KHOLE)  & \ttfamily : 10 \\
+    \ttfamily * CHANNEL (KCMPNM)  & \ttfamily : HNE \\
+    \ttfamily * CREATED           & \ttfamily : --- \\
+    \ttfamily * START             & \ttfamily : --- \\
+    \ttfamily * END               & \ttfamily : 2599-12-31T23:59:59 \\
+    \ttfamily * DESCRIPTION       & \ttfamily : \edificio~Azotea \\
+    \ttfamily * LATITUDE          & \ttfamily : \Latazo \\
+    \ttfamily * LONGITUDE         & \ttfamily : \Longazo \\
+    \ttfamily * ELEVATION         & \ttfamily : \Altazo \\
+    \ttfamily * DEPTH             & \ttfamily : 0.0 \\
+    \ttfamily * SAMPLE RATE       & \ttfamily : 100.0 \\
+    \ttfamily * INPUT UNIT        & \ttfamily : M \\
+    \ttfamily * OUTPUT UNIT       & \ttfamily : COUNTS \\
+    \ttfamily * INSTTYPE          & \ttfamily : SA10, DC to 200 Hz, 10V differential full scale vo \\
+    \ttfamily * INSTGAIN          & \ttfamily : 2.549290e-01 (M/S**2) \\
+    \ttfamily * COMMENT           & \ttfamily : ACEBOX-SL06 \number\numexpr\Serie+1\relax \\
+    \ttfamily * SENSITIVITY       & \ttfamily : 2.138570e+05 (M/S**2) \\
+    \ttfamily * A0                & \ttfamily : 1.708879e+16 \\
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \SetCell[c=2]{l}\ttfamily ZEROS 2 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily POLES 5 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 +8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 -8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 +6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 -6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -5.045690e+03 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily CONSTANT 	+3.654557e+21 \\
+    \end{tblr}
+\end{table}
+\subsubsection{RESPUESTA INSTRUMENTAL | CANAL NORTE-SUR}
+\begin{table}[H]
+    \begin{tblr}{
+        colspec={ll},
+        vlines=0pt,
+        hlines=0pt,
+        row{1} = {bg=white, fg=black}
+    }
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \ttfamily * NETWORK (KNETWK)  & \ttfamily : ED \\
+    \ttfamily * STATION (KSTNM)   & \ttfamily : \Codigo \\
+    \ttfamily * LOCATION (KHOLE)  & \ttfamily : 10 \\
+    \ttfamily * CHANNEL (KCMPNM)  & \ttfamily : HNN \\
+    \ttfamily * CREATED           & \ttfamily : --- \\
+    \ttfamily * START             & \ttfamily : --- \\
+    \ttfamily * END               & \ttfamily : 2599-12-31T23:59:59 \\
+    \ttfamily * DESCRIPTION       & \ttfamily : \edificio~Azotea \\
+    \ttfamily * LATITUDE          & \ttfamily : \Latazo \\
+    \ttfamily * LONGITUDE         & \ttfamily : \Longazo \\
+    \ttfamily * ELEVATION         & \ttfamily : \Altazo \\
+    \ttfamily * DEPTH             & \ttfamily : 0.0 \\
+    \ttfamily * SAMPLE RATE       & \ttfamily : 100.0 \\
+    \ttfamily * INPUT UNIT        & \ttfamily : M \\
+    \ttfamily * OUTPUT UNIT       & \ttfamily : COUNTS \\
+    \ttfamily * INSTTYPE          & \ttfamily : SA10, DC to 200 Hz, 10V differential full scale vo \\
+    \ttfamily * INSTGAIN          & \ttfamily : 2.549290e-01 (M/S**2) \\
+    \ttfamily * COMMENT           & \ttfamily : ACEBOX-SL06 \number\numexpr\Serie+1\relax \\
+    \ttfamily * SENSITIVITY       & \ttfamily : 2.138570e+05 (M/S**2) \\
+    \ttfamily * A0                & \ttfamily : 1.708879e+16 \\
+    \SetCell[c=2]{l}\ttfamily * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \\
+    \SetCell[c=2]{l}\ttfamily ZEROS 2 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily +0.000000e+00 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily POLES 5 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 +8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -8.884420e+02 -8.887110e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 +6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -1.316450e+03 -6.415510e+02 \\
+    \SetCell[c=2]{l}\ttfamily -5.045690e+03 +0.000000e+00 \\
+    \SetCell[c=2]{l}\ttfamily CONSTANT 	+3.654557e+21 \\
+    \end{tblr}
+\end{table}
